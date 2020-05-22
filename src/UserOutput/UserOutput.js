@@ -3,8 +3,8 @@ import React from "react";
 const userOutput = (props) => {
   return (
     <div>
-      <p></p>
-      <p></p>
+      <p>Hi, {props.username}</p>
+      <p>How are you?</p>
     </div>
   );
 };
